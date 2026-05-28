@@ -1,4 +1,4 @@
-package org.example;
+package com.finder.car;
 
 public class Car {
     private String make;
