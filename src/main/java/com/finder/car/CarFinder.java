@@ -29,9 +29,9 @@ public class CarFinder {
     }
 
     public ArrayList<Car> loadData() throws Exception {
-        ClassLoader classLoader = CarFinder.class.getClassLoader();
+        ClassLoader classLoader = CarFinder.class.getClassLoader(); // loads file from clash path, comes from resources folder
         InputStream inputStream = classLoader.getResourceAsStream("data.txt");
-        assert inputStream != null;
+        assert inputStream != null; // asserts that the Input is NOT Null
         Scanner carData = new Scanner(inputStream);
         carData.useDelimiter(System.lineSeparator());
         carData.next();
@@ -59,21 +59,65 @@ public class CarFinder {
         ArrayList<Car> matchingCars = new ArrayList<>();
         Scanner scanner = new Scanner(System.in);
 
-        System.out.println("Enter a brand, model, color, etc: ");
-        String input = scanner.next().trim();
+
+
+        System.out.print("Enter a brand, model, color, year, etc, one at a time: ");
+        String input = scanner.nextLine().trim();
         for (Car car : carList) {
             if (car.getMake().equalsIgnoreCase(input) ||
                     car.getModel().equalsIgnoreCase(input) ||
                     car.getColor().equalsIgnoreCase(input) ||
                     car.getBodyType().equalsIgnoreCase(input) ||
                     car.getDrive().equalsIgnoreCase(input) ||
+                    String.valueOf(car.getYear()).equals(input) ||
                     car.getClasss().equalsIgnoreCase(input)) {
                 matchingCars.add(car);
             }
         }
-
+        if(matchingCars.size() == 0)
+        {
+            System.out.println("Sorry signore, we could not find any fine automobiles for you");
+            return;
+        }
+        if(matchingCars.size() == 1)
+        {
+            System.out.println("CONGRATS!, YOU HAVE FOUND YOUR MATCH SIGNORE!, GET READY FOR THE RIDE OF YOUR LIFE!");
+            return;
+        }
         for (Car matchingCar : matchingCars) {
+
             System.out.println(matchingCar.toString());
+        }
+
+        while(!input.equalsIgnoreCase("exit")) {
+            System.out.print("Enter a brand, model, color, year, etc, one at a time: ");
+            input = scanner.nextLine().trim();
+            ArrayList<Car> latestMatch = new ArrayList<>();
+            for (Car car : matchingCars) {
+                if (car.getMake().equalsIgnoreCase(input) ||
+                        car.getModel().equalsIgnoreCase(input) ||
+                        car.getColor().equalsIgnoreCase(input) ||
+                        car.getBodyType().equalsIgnoreCase(input) ||
+                        car.getDrive().equalsIgnoreCase(input) ||
+                        String.valueOf(car.getYear()).equals(input) ||
+                        car.getClasss().equalsIgnoreCase(input)) {
+                    latestMatch.add(car);
+                }
+            }
+            matchingCars = latestMatch;
+            if(matchingCars.size() == 0)
+            {
+                System.out.println("Sorry signore, we could not find any fine automobiles for you");
+                return;
+            }
+            if(matchingCars.size() == 1)
+            {
+                System.out.println("CONGRATS!, YOU HAVE FOUND YOUR MATCH SIGNORE!, GET READY TO FALL IN LOVE!");
+                return;
+            }
+            for (Car matchingCar : matchingCars) {
+                System.out.println(matchingCar.toString());
+            }
         }
     }
 }
