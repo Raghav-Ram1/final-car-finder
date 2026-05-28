@@ -1,0 +1,105 @@
+make,model,year,mileage,used,type,color,drive,class,price
+Toyota,Corolla,2026,0,false,Sedan,Silver,Gas,Economy,23500
+Tesla,Model Y,2026,0,false,SUV,White,Electric,Standard,46000
+Ferrari,F40,1987,3200,true,Coupe,Red,Gas,Luxury,3200000
+Ford,F-150,2026,0,false,Truck,Black,Gas,Standard,43000
+Honda,Civic,2022,35000,true,Sedan,Blue,Gas,Economy,21500
+BMW,X3,2026,0,false,SUV,White,Gas,Luxury,50500
+Tesla,Model 3,2023,18000,true,Sedan,Grey,Electric,Standard,29500
+Porsche,911 GT3RS,2026,0,false,Coupe,Grey,Gas,Luxury,245000
+Lamborghini,Aventador SV,2018,5000,true,Coupe,Yellow,Gas,Luxury,525000
+Chevrolet,Suburban,2021,45000,true,SUV,Black,Gas,Standard,47000
+Mercedes-Benz,E-Class,2026,0,false,Sedan,Black,Gas,Luxury,64000
+Audi,Q5,2024,22000,true,SUV,White,Gas,Luxury,41500
+Nissan,Altima,2019,55000,true,Sedan,Silver,Gas,Standard,14800
+Hyundai,Elantra,2026,0,false,Sedan,Blue,Gas,Economy,22500
+Kia,Telluride,2023,24000,true,SUV,Dark Grey,Gas,Standard,36500
+Subaru,Outback,2026,0,false,Wagon,Green,Gas,Standard,31000
+Jeep,Wrangler,2022,19000,true,SUV,Red,Gas,Standard,34500
+Lexus,RX 350,2026,0,false,SUV,Silver,Gas,Luxury,53000
+Mazda,CX-5,2023,11000,true,SUV,Red,Gas,Standard,26500
+Volkswagen,Golf GTI,2026,0,false,Hatchback,White,Gas,Standard,33500
+Aston Martin,DB11,2019,7000,true,Coupe,Green,Gas,Luxury,145000
+Jaguar,F-Type,2021,12000,true,Convertible,Blue,Gas,Luxury,48000
+Land Rover,Defender,2026,0,false,SUV,Green,Gas,Luxury,65000
+Volvo,XC90,2022,21000,true,SUV,Black,Gas,Luxury,45500
+Cadillac,Escalade,2026,0,false,SUV,White,Gas,Luxury,91000
+Chevrolet,Corvette,2023,3500,true,Coupe,Red,Gas,Luxury,71000
+Dodge,Charger,2021,15000,true,Sedan,Black,Gas,Standard,27500
+Ford,Mustang,2026,0,false,Coupe,Blue,Gas,Standard,34000
+Toyota,RAV4,2024,18000,true,SUV,White,Gas,Standard,28500
+Honda,Accord,2026,0,false,Sedan,Grey,Gas,Standard,29000
+Nissan,GT-R,2020,11000,true,Coupe,Silver,Gas,Luxury,128000
+BMW,M5,2026,0,false,Sedan,Black,Gas,Luxury,122000
+Mercedes-Benz,G-Class,2022,13000,true,SUV,Black,Gas,Luxury,165000
+Audi,R8,2021,6000,true,Coupe,Grey,Gas,Luxury,172000
+Tesla,Model Y,2024,14000,true,SUV,Blue,Electric,Standard,36500
+Hyundai,Ioniq 5,2026,0,false,SUV,Silver,Electric,Standard,44500
+Kia,EV6,2023,12000,true,SUV,Red,Electric,Standard,33000
+Subaru,WRX,2026,0,false,Sedan,Blue,Gas,Standard,33800
+Jeep,Grand Cherokee,2023,17500,true,SUV,White,Gas,Standard,37500
+Lexus,ES 350,2026,0,false,Sedan,Beige,Gas,Luxury,44500
+Mazda,3,2021,31000,true,Hatchback,Grey,Gas,Economy,18500
+Volkswagen,Jetta,2026,0,false,Sedan,Black,Gas,Economy,23000
+Chevrolet,Silverado,2023,22000,true,Truck,Red,Gas,Standard,40500
+Ford,Explorer,2026,0,false,SUV,Silver,Gas,Standard,41500
+GMC,Sierra,2024,8000,true,Truck,White,Gas,Standard,52000
+Ram,1500,2026,0,false,Truck,Grey,Gas,Standard,42500
+Toyota,Prius,2023,8500,true,Hatchback,White,Gas,Economy,27500
+Honda,CR-V,2026,0,false,SUV,Blue,Gas,Standard,31500
+Nissan,Rogue,2022,26000,true,SUV,Grey,Gas,Standard,21000
+Porsche,Macan,2026,0,false,SUV,Black,Gas,Luxury,64000
+Ferrari,488 GTB,2017,8000,true,Coupe,Red,Gas,Luxury,225000
+Lamborghini,Urus,2026,0,false,SUV,Yellow,Gas,Luxury,240000
+McLaren,720S,2020,4500,true,Coupe,Orange,Gas,Luxury,215000
+Bugatti,Chiron,2019,1200,true,Coupe,Blue,Gas,Luxury,3100000
+Rolls-Royce,Ghost,2026,0,false,Sedan,Black,Gas,Luxury,355000
+Bentley,Continental,2022,9000,true,Coupe,Silver,Gas,Luxury,205000
+Maserati,Ghibli,2026,0,false,Sedan,White,Gas,Luxury,86000
+Alfa Romeo,Giulia,2022,15000,true,Sedan,Red,Gas,Standard,28000
+Genesis,G80,2026,0,false,Sedan,Grey,Gas,Luxury,58500
+Infiniti,QX60,2022,24000,true,SUV,White,Gas,Luxury,35000
+Acura,MDX,2026,0,false,SUV,Grey,Gas,Luxury,52500
+Lincoln,Navigator,2022,19500,true,SUV,Black,Gas,Luxury,61500
+Cadillac,CT5,2026,0,false,Sedan,Blue,Gas,Luxury,48500
+Dodge,Challenger,2020,35000,true,Coupe,Orange,Gas,Standard,23500
+Chevrolet,Camaro,2022,12000,true,Coupe,Black,Gas,Standard,29500
+Ford,Bronco,2026,0,false,SUV,Grey,Gas,Standard,40000
+Toyota,Tacoma,2021,38000,true,Truck,Green,Gas,Standard,30500
+Honda,Pilot,2026,0,false,SUV,Silver,Gas,Standard,42000
+Nissan,Pathfinder,2023,15000,true,SUV,Black,Gas,Standard,32500
+Subaru,Forester,2026,0,false,SUV,Blue,Gas,Standard,31500
+Mazda,MX-5 Miata,2021,9500,true,Convertible,White,Gas,Standard,24500
+Volkswagen,Tiguan,2026,0,false,SUV,Grey,Gas,Standard,29500
+BMW,X5,2024,6000,true,SUV,Black,Gas,Luxury,61000
+Mercedes-Benz,C-Class,2026,0,false,Sedan,Silver,Gas,Luxury,48500
+Audi,A4,2022,19000,true,Sedan,White,Gas,Luxury,27500
+Tesla,Model S,2026,0,false,Sedan,Red,Electric,Luxury,84000
+Porsche,Cayenne,2023,13500,true,SUV,White,Gas,Luxury,78000
+Land Rover,Range Rover,2026,0,false,SUV,Gold,Gas,Luxury,108000
+Volvo,XC60,2022,25000,true,SUV,Silver,Gas,Luxury,34500
+Lexus,IS 350,2026,0,false,Sedan,Grey,Gas,Luxury,45500
+Toyota,Camry,2025,12000,true,Sedan,Grey,Gas,Standard,26500
+Honda,Civic Type R,2026,0,false,Hatchback,White,Gas,Standard,45500
+Ford,Maverick,2023,18000,true,Truck,Blue,Gas,Standard,24000
+Hyundai,Tucson,2026,0,false,SUV,White,Gas,Standard,28500
+Kia,Sportage,2024,9000,true,SUV,Black,Gas,Standard,25500
+Nissan,Sentra,2026,0,false,Sedan,Blue,Gas,Economy,21500
+Chevrolet,Malibu,2020,52000,true,Sedan,Silver,Gas,Standard,13500
+Buick,Enclave,2026,0,false,SUV,White,Gas,Standard,46500
+GMC,Yukon,2023,16000,true,SUV,Black,Gas,Standard,61000
+Jeep,Cherokee,2026,0,false,SUV,Grey,Gas,Standard,31000
+Toyota,Supra,2022,8000,true,Coupe,Yellow,Gas,Standard,48500
+Nissan,Z,2026,0,false,Coupe,Blue,Gas,Standard,43500
+BMW,Z4,2021,14000,true,Convertible,Red,Gas,Luxury,40500
+Audi,Q7,2026,0,false,SUV,Black,Gas,Luxury,61500
+Mercedes-Benz,GLA,2021,31000,true,SUV,White,Gas,Luxury,25000
+Tesla,Cybertruck,2026,0,false,Truck,Silver,Electric,Standard,79000
+Rivian,R1T,2023,12000,true,Truck,Blue,Electric,Standard,64000
+Lucid,Air,2026,0,false,Sedan,White,Electric,Luxury,72000
+Polestar,2,2022,19000,true,Hatchback,Blue,Electric,Standard,30500
+Ford,Mustang Mach-E,2026,0,false,SUV,Red,Electric,Standard,45000
+BMW,i4,2022,8000,true,Sedan,Black,Electric,Luxury,38500
+BMW,M3,2010,30000,true,coupe,White,Gas,Luxury,45000
+Tesla,Model Y,2023,15000,true,SUV,Red,Electric,Standard,33500
+Toyota,Highlander,2021,60000,true,SUV,Grey,Gas,Standard,27500
